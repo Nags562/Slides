@@ -1,0 +1,33 @@
+.Slides {
+  /* background-image: url(img\programming-background-collage.jpg); */
+  /* background-image: url(./img/programming-background-collage.jpg); */
+  background: url(./img/programming-background-collage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* full screen height */
+  /* background-color: #7fff00; */
+  opacity: 0.5;
+  font-size: larger;
+  color: grey;
+ 
+}
+
+.slideOne {
+  text-align: center;
+}
+.slideTwo {
+  text-align: center;
+}
+.slideThree {
+  text-align: center;
+}
+.slideFour {
+  text-align: center;
+}
+.slideFive {
+  text-align: center;
+}
+.slideSix {
+  text-align: center;
+}
