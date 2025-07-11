@@ -9,18 +9,21 @@
   /* background-color: #7fff00; */
   opacity: 0.5;
   font-size: larger;
-  color: grey;
- 
+  color: black;
+  font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
 }
 
 .slideOne {
   text-align: center;
+  color: white;
 }
 .slideTwo {
   text-align: center;
+  color: white;
 }
 .slideThree {
   text-align: center;
+  color: white;
 }
 .slideFour {
   text-align: center;
@@ -30,4 +33,5 @@
 }
 .slideSix {
   text-align: center;
+  color: white;
 }
