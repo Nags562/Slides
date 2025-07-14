@@ -1,8 +1,6 @@
- .slides {
-  background-color: white;
-  font-size: larger;
-  color: black;
-  font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
+
+.slides {
+  text-align: center;
   height: 50%;
   width: 50%;
   top: 25%;
@@ -16,20 +14,6 @@
   border-radius: 20px;
   line-height: 1.1;
  }
-
-.slideOne {
-}
-.slideTwo {
-
-}
-.slideThree {
-}
-.slideFour {
-}
-.slideFive {
-}
-.slideSix {
-}
 body{
     margin: 0;
     padding: 0;
@@ -46,6 +30,27 @@ body{
 h1{
     color: green;
     font-size: 2em;
+    margin-top: 20px;
+} 
+
+.slideOne {
+  background-color: aqua;
+}
+
+.slideTwo {
+  background-color: pink;
+}
+.slideThree {
+  background-color: greenyellow;
+}
+.slideFour {
+  background-color: blanchedalmond;
+}
+.slideFive {
+  background-color: plum;
+}
+.slideSix {
+  background-color: #ddf602;
     margin-top: 5px;
     margin-bottom: 0;
 } 
