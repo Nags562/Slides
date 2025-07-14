@@ -1,6 +1,5 @@
+ main
 .Slides {
-  /* background-image: url(img\programming-background-collage.jpg); */
-  /* background-image: url(./img/programming-background-collage.jpg); */
   background: url(./img/programming-background-collage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
