@@ -1,46 +1,37 @@
-.Slides {
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: git100vh; /* full screen height */
-
-  font-size: larger;
-  font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
-  background-image: url(./img/person-front-computer-working-html.jpg);
-  background-size: cover;
-}
-
 
 .slides {
   text-align: center;
-  /* color: #000000; */
-  /* background-color: rgb(206, 133, 133); */
-  /* display: none; */
-  /* visibility: hidden; */
-}
-
-ul {
-  list-style: none;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  left:25%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
   justify-content: center;
-}
-.slideSix {
   text-align: center;
-  /* color: white; */
+  border-radius: 20px;
+  line-height: 1.1;
+ }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(./img/person-front-computer-working-html.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 
-/* h1{
+h1{
     color: green;
     font-size: 2em;
     margin-top: 20px;
-}  */
+} 
 
 .slideOne {
   background-color: aqua;
@@ -60,4 +51,6 @@ body {
 }
 .slideSix {
   background-color: #ddf602;
-}
+    margin-top: 5px;
+    margin-bottom: 0;
+} 
