@@ -1,13 +1,14 @@
 .Slides {
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100vh; /* full screen height */
+  min-height: git100vh; /* full screen height */
 
   font-size: larger;
   font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
   background-image: url(./img/person-front-computer-working-html.jpg);
   background-size: cover;
 }
+
 
 .slides {
   text-align: center;
