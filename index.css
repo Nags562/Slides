@@ -1,3 +1,42 @@
+ main
+.Slides {
+  /* background-image: url(img\programming-background-collage.jpg); */
+  /* background-image: url(./img/programming-background-collage.jpg); */
+  background: url(./img/programming-background-collage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* full screen height */
+  /* background-color: #7fff00; */
+  opacity: 0.5;
+  font-size: larger;
+  color: black;
+  font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
+}
+
+.slideOne {
+  text-align: center;
+  color: white;
+}
+.slideTwo {
+  text-align: center;
+  color: white;
+}
+.slideThree {
+  text-align: center;
+  color: white;
+}
+.slideFour {
+  text-align: center;
+}
+.slideFive {
+  text-align: center;
+}
+.slideSix {
+  text-align: center;
+  color: white;
+}
+=======
 body{
     margin: 0;
     padding: 0;
@@ -12,4 +51,4 @@ h1{
     color: green;
     font-size: 2em;
     margin-top: 20px;
-}
+} main
