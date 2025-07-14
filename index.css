@@ -1,14 +1,9 @@
- main
 .Slides {
-  background: url(./img/programming-background-collage.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh; /* full screen height */
-  /* background-color: #7fff00; */
-  opacity: 0.5;
+
   font-size: larger;
-  color: black;
   font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
   background-image: url(./img/person-front-computer-working-html.jpg);
   background-size: cover;
@@ -17,7 +12,7 @@
 .slides {
   text-align: center;
   /* color: #000000; */
-  background-color: rgb(206, 133, 133);
+  /* background-color: rgb(206, 133, 133); */
   /* display: none; */
   /* visibility: hidden; */
 }
@@ -25,19 +20,43 @@
 ul {
   list-style: none;
 }
-=======
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: white;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.slideSix {
+  text-align: center;
+  /* color: white; */
 }
 
-h1{
+/* h1{
     color: green;
     font-size: 2em;
     margin-top: 20px;
-} main
+}  */
+
+.slideOne {
+  background-color: aqua;
+}
+
+.slideTwo {
+  background-color: pink;
+}
+.slideThree {
+  background-color: greenyellow;
+}
+.slideFour {
+  background-color: blanchedalmond;
+}
+.slideFive {
+  background-color: plum;
+}
+.slideSix {
+  background-color: #ddf602;
+}
