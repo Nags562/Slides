@@ -1,43 +1,51 @@
- main
-.Slides {
-  background: url(./img/programming-background-collage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh; /* full screen height */
-  /* background-color: #7fff00; */
-  opacity: 0.5;
+ .slides {
+  background-color: white;
   font-size: larger;
   color: black;
   font-family: "Segoe UI", Roboto, Open Sans, sans-serif;
-  background-image: url(./img/person-front-computer-working-html.jpg);
-  background-size: cover;
-}
-
-.slides {
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  left:25%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  /* color: #000000; */
-  background-color: rgb(206, 133, 133);
-  /* display: none; */
-  /* visibility: hidden; */
-}
+  border-radius: 20px;
+  line-height: 1.1;
+ }
 
-ul {
-  list-style: none;
+.slideOne {
 }
-=======
+.slideTwo {
+
+}
+.slideThree {
+}
+.slideFour {
+}
+.slideFive {
+}
+.slideSix {
+}
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: white;
     align-items: center;
     text-align: center;
     justify-content: center;
+    display: flex;
+    background-image: url(./img/person-front-computer-working-html.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 
 h1{
     color: green;
     font-size: 2em;
-    margin-top: 20px;
-} main
+    margin-top: 5px;
+    margin-bottom: 0;
+} 
