@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         slides[index].classList.add('active');
     }
     function nextSlide(){
-        currentSlide = (currentSlide + 1);
+        currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
     }
     setInterval(nextSlide, slideDuration);
