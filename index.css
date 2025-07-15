@@ -1,3 +1,10 @@
+ 
+
+
+ul {
+  list-style: none;
+}
+
 
 .slides {
   text-align: center;
@@ -17,6 +24,7 @@
   transition: opacity 1s ease-in-out;
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -25,10 +33,14 @@ body{
     text-align: center;
     justify-content: center;
     display: flex;
-    background-image: url(./img/person-front-computer-working-html.jpg);
-    background-size: cover;
+    background-image: url(./img/man.jpeg);
+     background-size: cover;
+    background-repeat: no-repeat; 
+    
     overflow: hidden;
 }
+
+
 
 h1{
     color: green;
@@ -47,6 +59,7 @@ h6{
 
 #slideOne {
   background-color: aqua;
+  
 }
 
 .slideTwo {
@@ -63,4 +76,5 @@ h6{
 }
 .slideSix {
   background-color: #ddf602;
+
 } 
